@@ -11,10 +11,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from the device configuration.
 $(call inherit-product, device/xiaomi/umi/device.mk)
 
-# Inherit from the tequilaOS configuration.
-$(call inherit-product, vendor/tequila/config/common_full_phone.mk)
+# Inherit from the kscope configuration.
+$(call inherit-product, vendor/kscope/target/product/mobile.mk)
 
-PRODUCT_NAME := tequila_umi
+PRODUCT_NAME := kscope_umi
 PRODUCT_DEVICE := umi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 10

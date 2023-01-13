@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/tequila_umi.mk
+    $(LOCAL_DIR)/kscope_umi.mk
 
 COMMON_LUNCH_CHOICES := \
-    tequila_umi-eng \
-    tequila_umi-user \
-    tequila_umi-userdebug
+    kscope_umi-eng \
+    kscope_umi-user \
+    kscope_umi-userdebug
